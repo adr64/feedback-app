@@ -10,8 +10,6 @@ import { FeedbackProvider } from './context/FeedbackContext';
 import AboutIconLink from './components/AboutIconLink';
 
 function App() {
-    const [feedback, setFeedback] = useState(FeedbackData);
-
     return (
       <FeedbackProvider>
         <Router>
