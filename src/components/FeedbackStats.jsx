@@ -13,8 +13,6 @@ let average = feedback.reduce((acc, cur) => {
 
 average = average.toFixed(1).replace(/[.,]0$/, '');
 
-console.log(average);
-
   return (
     <div className="feedback-stats">
         <h4>{feedback.length} Reviews</h4>
@@ -24,7 +22,7 @@ console.log(average);
 }
 
 FeedbackStats.propTypes = {
-    feedback: PropTypes.array.isRequired
+    //feedback: PropTypes.array.isRequired
 }
 
 export default FeedbackStats
