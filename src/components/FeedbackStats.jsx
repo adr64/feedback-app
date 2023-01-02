@@ -22,7 +22,7 @@ average = average.toFixed(1).replace(/[.,]0$/, '');
 }
 
 FeedbackStats.propTypes = {
-    //feedback: PropTypes.array.isRequired
+    feedback: PropTypes.array.isRequired
 }
 
 export default FeedbackStats
