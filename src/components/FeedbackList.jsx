@@ -23,10 +23,7 @@ function FeedbackList() {
             ))}
             </AnimatePresence>        
         </div>
-        )
-
-
-    return 
+        ) 
 }
 
 export default FeedbackList;
